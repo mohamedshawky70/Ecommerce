@@ -4,6 +4,7 @@ namespace Ecommerce.Repository
 {
     public interface IRepo<T> where T : class
     {
+      
         Task<T> Add(T entity);
         void Delete(T entity);
         Task<IEnumerable<T>> FindAllMatchInclude(Expression<Func<T, bool>> match, string[] Include);

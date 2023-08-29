@@ -2,9 +2,9 @@
 
 namespace Ecommerce.DTOs
 {
-    public class ProductsAndOpitonsDTO
+    public class ProductDetailsDTO
     {
-        public int ProductId { get; set; }
+        public int Id { get; set; }
         [MaxLength(20)]
         public string Name { get; set; }
         public double Price { get; set; }
@@ -13,6 +13,5 @@ namespace Ecommerce.DTOs
         public byte[] Image { get; set; }
         public int Stock { get; set; }
         public DateTime CreatedDate { get; set; }
-        public List<string> OptionsName { get; set; } = new List<string>();
     }
 }

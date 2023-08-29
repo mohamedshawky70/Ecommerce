@@ -17,6 +17,10 @@ builder.Services.AddDbContext<ApplicationDbContext>(O => O.UseSqlServer(
     ));
 builder.Services.AddTransient(typeof(IRepo<>), typeof(Repo<>));
 builder.Services.AddTransient(typeof(ProductsAndOpitonsDTO), typeof(ProductsAndOpitonsDTO));
+builder.Services.AddTransient(typeof(CategoryAndProductsDTO), typeof(CategoryAndProductsDTO));
+builder.Services.AddTransient(typeof(CategoryAndProductsDTO), typeof(CategoryAndProductsDTO));
+builder.Services.AddTransient(typeof(ProductDetailsDTO), typeof(ProductDetailsDTO));
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

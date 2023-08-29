@@ -11,15 +11,13 @@ namespace Ecommerce.Models
         public double Price { get; set; }
         [MaxLength(200)]
         public string Descriptions { get; set; }
-        //public byte[]? Image { get; set; }
+        public byte[] Image { get; set; }
         public int Stock { get; set; }
         public DateTime CreatedDate { get; set; }
         //[JsonIgnore]
         public List<ProductOptions> productOptions { get; set; } = new List<ProductOptions>();
-        public int ProductCategoriesId { get; set; }
-        public ProductCategories productCategories { get; set; }
-        [JsonIgnore]
-
+        public List<ProductCategories> productCategories { get; set; } = new List<ProductCategories>();
+        //[JsonIgnore]
         public List<OrderDetails> orderDetails { get; set; } = new List<OrderDetails>();
 
 

@@ -1,4 +1,5 @@
 ﻿using Ecommerce.Data;
+using Ecommerce.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
 
@@ -66,10 +67,12 @@ namespace Ecommerce.Repository
             context.SaveChanges();
             return entity;
         }
-        public void Delete(T entity)
+        public void Delete(T entity)//need only id from entity to delete
         {
             context.Set<T>().Remove(entity);
             context.SaveChanges();
         }
+
+        
     }
 }
