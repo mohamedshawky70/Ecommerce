@@ -22,7 +22,7 @@ Objective : Building an e-commerce platform using a .NET API typically involves 
 
   
 ### 4. [ Inversion of Control (IoC) ]
--It helps decouple the components of an application, making the system more modular, testable, and maintainable.
+- It helps decouple the components of an application, making the system more modular, testable, and maintainable.
 
 
 ---
