@@ -5,8 +5,18 @@
 ![Image](https://github.com/user-attachments/assets/e49f352c-15e0-4846-b302-df283842539f)
 
 ## EndPoints
+
+### app.MapIdentityApi
 ![Image](https://github.com/user-attachments/assets/dc7a894e-03ed-4226-bf1d-d4e2574a562a)
-##_______________________________________________________________________________________
+### Category
+![Image](https://github.com/user-attachments/assets/8df5c664-fa7e-4f5b-bd42-c824fe0c9ce2)
+### Product
+![Image](https://github.com/user-attachments/assets/add65a76-3a97-45af-8add-b0e80dcf8e01)
+### Order
+![Image](https://github.com/user-attachments/assets/161376dd-a79b-4a00-9e08-25db061f07be)
+### Order Details
+![Image](https://github.com/user-attachments/assets/e57b019d-94b8-4891-92f6-5e5b522b4343)
+
 ## Project Overview
 
 Objective : Building an e-commerce platform using a .NET API typically involves designing and developing a robust backend service to handle essential functionalities such as managing products, orders, customers, payments, and other core aspects of an e-commerce application. The project might use ASP.NET Core for developing the API, along with other libraries and services like Entity Framework for data access, authentication tools, and cloud-based storage for media. 
