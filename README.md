@@ -6,7 +6,7 @@
 
 ## EndPoints
 
-### app.MapIdentityApi
+### IdentityApi
 ![Image](https://github.com/user-attachments/assets/dc7a894e-03ed-4226-bf1d-d4e2574a562a)
 ### Category
 ![Image](https://github.com/user-attachments/assets/8df5c664-fa7e-4f5b-bd42-c824fe0c9ce2)
