@@ -4,6 +4,9 @@
 
 ![Image](https://github.com/user-attachments/assets/e49f352c-15e0-4846-b302-df283842539f)
 
+## EndPoints
+![Image](https://github.com/user-attachments/assets/dc7a894e-03ed-4226-bf1d-d4e2574a562a)
+##_______________________________________________________________________________________
 ## Project Overview
 
 Objective : Building an e-commerce platform using a .NET API typically involves designing and developing a robust backend service to handle essential functionalities such as managing products, orders, customers, payments, and other core aspects of an e-commerce application. The project might use ASP.NET Core for developing the API, along with other libraries and services like Entity Framework for data access, authentication tools, and cloud-based storage for media. 
